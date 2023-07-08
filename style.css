@@ -1,0 +1,98 @@
+
+.icon{
+    height: 130px;
+    width: 130px;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+.body{
+    height: 100vh;
+    background-image: url('/background.jpg');
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+    height: 60vh;
+    overflow-y: auto;
+    padding: 30px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    background-color: white;
+}
+.headline{
+    font-family:Kalam;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+.message{
+    background-color: lightblue;
+    width: 25%;
+    padding: 10px;
+    margin: 10px 8px;
+    border-radius: 8px;
+    font-family: Kalam;
+}
+.your{
+    float: right;
+    clear: both;
+}
+.others{
+    float: left;
+    clear: both;
+}
+#send-box{
+    text-align: center;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    max-width: 900px;
+    width: 100%;
+}
+#messageInput{
+    width:80%;
+    border-radius: 8px;
+    border: 1px solid black;
+    height: 35px;
+    font-size: 15px;
+    font-family: Kalam;
+}
+
+
+/* CSS for button*/
+.btn {
+  background-color: #13aa52;
+  border: 1px solid #13aa52;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  position: relative;
+  top: 2px;
+  height: 40px;
+}
+
+.btn:hover {
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  .btn {
+    padding: 10px 30px;
+  }
+}
